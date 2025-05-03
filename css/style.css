@@ -1,0 +1,48 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('../img/clock.avif'); /* Replace with your image path */
+  background-size: cover;                 /* Cover the entire screen */
+  background-repeat: no-repeat;           /* Prevent image repeating */
+  background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .stopwatch-container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .display {
+    font-size: 48px;
+    margin: 20px 0;
+  }
+  
+  .buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 50px;
+    background-color: aquamarine;
+    cursor: pointer;
+  }
+  
+  .laps {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .laps li {
+    background: #eee;
+    margin: 5px 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
